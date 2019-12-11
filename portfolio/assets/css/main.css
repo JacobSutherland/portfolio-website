@@ -1,6 +1,9 @@
 @import url(fontawesome-all.min.css);
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300italic,600italic,300,600");
 
+
+
+/* ================== PERSONAL CHAGES BEGIN AT LINE 302 ================== */
 /*
 	Dimension by HTML5 UP
 	html5up.net | @ajlkn
@@ -299,16 +302,80 @@ input, select, textarea {
 		margin: 2.75rem 0;
 	}
 
+	/*============================= my changes ======================================== */
+
+	p {
+		letter-spacing: .1rem;
+		}
+
+		.project {
+			
+			
+			margin-top: 2%;
+		}
+
+		.project h2 {
+			text-align: center;
+		}
+
+		.project-image {
+			max-width: 100%;
+
+		}
+
+		.project-image img{
+			max-width: 100%;
+		}
+
+		.project-one-btn{
+			border: 1px solid;
+			margin: 0 auto;
+			margin-top: 2%;
+			border-radius: 4px;
+			text-align: center;
+			padding-top: 1.2%;
+			width: 25%;
+			height: 2.75rem
+		}
+
+		.project-one-btn a {
+			text-decoration: none;
+			width: 100%;
+			}
+
+		.skills-container{
+			display: flex;
+			flex-wrap: wrap;
+			justify-content: center;
+			
+			
+			
+		}
+
+			.skills-container div {
+		 width: 40%;
+		 margin: 5%;
+		 text-align: center;
+		 font-size: 100%;
 
 
-	#intro img {
+
+
+			}
+
+			.fa-js-square, .fa-css3-alt, .fa-react, .fa-less {
+				font-size:5rem;
+
+			}
+
+		#intro img {
 		border-radius:50%;
 		width: 80%;
 		margin: 0 auto
 		
 	}
 
-	
+	/* ================================= End PERSONAL CHANGES ================================= */
 
 	.align-left {
 		text-align: left;
