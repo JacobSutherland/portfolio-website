@@ -72,6 +72,7 @@ input, select, textarea {
 	appearance: none;
 }
 
+
 /* Basic */
 
 	@-ms-viewport {
@@ -109,11 +110,21 @@ input, select, textarea {
 			transition: none !important;
 		}
 
+
+			/* my changes */
+.content .inner p {
+	color: white;
+	font-weight: bold;
+	font-size: 50rem;;
+	
+}
+
 /* Type */
 
 	html {
 		font-size: 16pt;
 	}
+
 
 		@media screen and (max-width: 1680px) {
 
@@ -287,6 +298,17 @@ input, select, textarea {
 		border-bottom: solid 1px #ffffff;
 		margin: 2.75rem 0;
 	}
+
+
+
+	#intro img {
+		border-radius:50%;
+		width: 80%;
+		margin: 0 auto
+		
+	}
+
+	
 
 	.align-left {
 		text-align: left;
@@ -1139,10 +1161,13 @@ input, select, textarea {
 			-webkit-transition-delay: 0.75s;
 			-ms-transition-delay: 0.75s;
 			transition-delay: 0.75s;
-			background-image: linear-gradient(to top, rgba(19, 21, 25, 0.5), rgba(19, 21, 25, 0.5)), url("../../images/overlay.png");
-			background-size: auto, 256px 256px;
-			background-position: center, center;
-			background-repeat: no-repeat, repeat;
+			background-image: linear-gradient(to top, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../../images/overlay.png");
+			background-size: auto,
+ 256px 256px;
+			background-position: center,
+ center;
+			background-repeat: no-repeat,
+ repeat;
 			z-index: 2;
 		}
 
@@ -1155,8 +1180,8 @@ input, select, textarea {
 			-webkit-transition: -webkit-transform 0.325s ease-in-out, -webkit-filter 0.325s ease-in-out;
 			-ms-transition: -ms-transform 0.325s ease-in-out, -ms-filter 0.325s ease-in-out;
 			transition: transform 0.325s ease-in-out, filter 0.325s ease-in-out;
-			background-image: url("../../images/bg.jpg");
-			background-position: center;
+			background-image: url("../../images/chicago-skyline.jpg");
+			background-position: 50% 24%;
 			background-size: cover;
 			background-repeat: no-repeat;
 			z-index: 1;
