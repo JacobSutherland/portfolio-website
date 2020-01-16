@@ -9,8 +9,8 @@
 		<title>Jacob Sutherland Portfolio</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href="assets/css/main.css" />
-		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+		<link rel="stylesheet" href='./portfolio/assets/css/main.css' />
+		<noscript><link rel="stylesheet" href="./portfolio/assets/css/noscript.css" /></noscript>
 	</head>
 	<body class="is-preload">
 
@@ -33,9 +33,9 @@
 							<ul>
 								<li><a href="#intro">Intro</a></li>
 								<li><a href="#work">Work</a></li>
-								<li><a href="#about">Skills</a></li>
+								<!-- <li><a href="#about">Skills</a></li> -->
 								<li><a href="#contact">Contact</a></li>
-								<!--<li><a href="#elements">Elements</a></li>-->
+								<!-- <li><a href="#elements">Elements</a></li> -->
 							</ul>
 						</nav>
 					</header>
@@ -46,33 +46,81 @@
 						<!-- Intro -->
 							<article id="intro">
 								<h2 class="major">Intro</h2>
-								<span class="image main"><img src="images/arizona.jpg" alt="profile image" /></span>
+								<span class="image main"><img src="./portfolio/images/arizona.jpg" alt="profile image" /></span>
 								<p>I'm a full stack web developer from chicago, IL.
-									I'm passionate about design, clean code, and making you're projects come to life. check out my <a href="#work">work</a>.</p>
-							
+									I'm passionate about design, clean code, and making your projects come to life. check out my <a href="#work">work</a>.</p>
+									<h2 class ='major'>Skills</h2>
+									<div class='skills-container'>
+                                     
+										<div>
+											   <i class="fab fa-js-square"></i>
+											<h2>JavaScript</h2>
+	   
+									   </div>
+									   
+	   
+									   <div>
+											   <i class="fab fa-css3-alt"></i>
+											   <h2>CSS</h2> 
+									   </div>
+	   
+									   <div>
+											   <i class="fab fa-react"></i>
+											   <h2>React</h2>
+									   </div>
+	   
+									   <div>
+											   <i class="fab fa-less"></i>
+											  <h2>Less</h2>
+									   </div>
+
+									   <div>
+										<i class="fab fa-java"></i>
+									   <h2>Java</h2>
+								</div>
+
+									   <div>
+										<i class="fab fa-github-square"></i>
+									   <h2>github</h2>
+								</div>
+
+	   
+	   
+	   
+	   
+									   </div>
 							</article>
+
+							
 
 						<!-- Work -->
 							<article id="work">
 								<h2 class="major">Work</h2>
-								<span class="image main"><img src="images/work.jpg" alt="Photo by Markus Spiske on Unsplash" /></span>
+								<span class="image main"><img src="./portfolio/images/work.jpg" alt="Photo by Markus Spiske on Unsplash" /></span>
 
 								<div class='project'>
 									<h2>Sweet Eats Bakery</h2>
 								<p>In this project I was tasked with modifying the the CSS in order to match a design document .</p>
-								<div class='project-image'><img src="/images/Screenshot (28).png" alt="Sweet Eats Bakery"></div>
-								<div class ='project-one-btn'> <a href='https://codepen.io/JacobSutherland/pen/VwYZZZb?editors=1100'>View Code</a></div>
+								<div class='project-image'><img src="./portfolio/images/Screenshot (28).png" alt="Sweet Eats Bakery"></div>
+								<div class ='project-btn'> <a href='https://codepen.io/JacobSutherland/pen/VwYZZZb?editors=1100'>View Project</a></div>
 								</div>
 								
-							    <!-- <div class='project'>
-								<p>Nullam et orci eu lorem consequat tincidunt vivamus et sagittis libero. Mauris aliquet magna magna sed nunc rhoncus pharetra. Pellentesque condimentum sem. In efficitur ligula tate urna. Maecenas laoreet massa vel lacinia pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis libero. Mauris aliquet magna magna sed nunc rhoncus amet feugiat tempus.</p>
-							    </div> -->
+								<div class='project'>
+									<h2>Foodie Fun Landing Page</h2>
+								<p>I was tasked with designing and building a mobile and tablet responsive marketing page in order to promote a food journaling application that was built by my group. My work was done by utilizing LESS CSS to style the pages. </p>
+								<div class='project-image'><img src="./portfolio/images/Screenshot (46).png" alt="Foodie Fun"></div>
+								<div class ='project-btn'> <a href='https://foodiefun4.netlify.com/'>View Project</a></div>
+
+								<div class ='github-btn'> <a href='https://github.com/Build-Week-Foodie-Fun-4/Front-End'>View Github</a></div>
+								
+								</div>
+							    
 							</article>
 
 						<!-- About -->
-							<article id="about">
+							<!-- <article id="about">
 								<h2 class="major">Skills</h2>
-								<span class="image main"><img src="images/about.jpg" alt="Photo by Safar Safarov on Unsplash" /></span>
+								<span class="image main"><img src="./portfolio/images/about.jpg" alt="Photo by Safar Safarov on Unsplash" /></span>
 								<p>I enjoy working with a wide variety technologies in order to tackle unique and interesting challelnges.</p>
 								<div class='skills-container'>
 
@@ -103,7 +151,7 @@
 
 								</div>
 
-							</article>
+							</article> -->
 
 						<!-- Contact -->
 							<article id="contact">
@@ -392,11 +440,11 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
 			<div id="bg"></div>
 
 		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/browser.min.js"></script>
-			<script src="assets/js/breakpoints.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<script src="assets/js/main.js"></script>
+			<script src="./portfolio/assets/js/jquery.min.js"></script>
+			<script src="./portfolio/assets/js/browser.min.js"></script>
+			<script src="./portfolio/assets/js/breakpoints.min.js"></script>
+			<script src="./portfolio/assets/js/util.js"></script>
+			<script src="./portfolio/assets/js/main.js"></script>
 
 	</body>
 </html>
